@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "738669241866",
+    "firebase_url": "https://virals-c1dc5.firebaseio.com",
+    "project_id": "virals-c1dc5",
+    "storage_bucket": "virals-c1dc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738669241866:android:e889594a8c559cf539e1f3",
+        "android_client_info": {
+          "package_name": "com.JeevanCrasta.virals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738669241866-7vu87qbmgtj9s65d438hmalnefj7mmra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.JeevanCrasta.virals",
+            "certificate_hash": "9b53a0109cb4f1d18eb2d5d69c9d3a7919ed107b"
+          }
+        },
+        {
+          "client_id": "738669241866-3tt4m2ghnq7co2h0els2df364hptl39m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_L8FmgD4s1hNrMiMq0YihZtNq8hiSCnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738669241866-3tt4m2ghnq7co2h0els2df364hptl39m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

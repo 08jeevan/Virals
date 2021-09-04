@@ -1,0 +1,128 @@
+name: virals
+description: HomeScreen Setups and Wallpapers
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.0.2+7
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  # Cloud FireStore
+  cloud_firestore: ^0.14.4 
+  # Google Fonts
+  google_fonts: ^1.1.1  
+  # Page Transaction
+  page_transition: ^1.1.7+5 
+  # Icons
+  flutter_cmoon_icons: ^0.1.0
+  flutter_icons: ^1.1.0
+  eva_icons_flutter: ^2.0.1
+  # Playstore launcher
+  store_redirect: ^1.0.2
+  # Url Launcher
+  url_launcher: ^5.7.10
+  # Buttom Slider
+  sliding_up_panel: ^1.0.2
+  # Svg image Loader from asset
+  flutter_svg: ^0.19.3
+  # Image downloading
+  image_downloader: ^0.20.1 
+  # Wallpaper setter for homescreen and lockscreen
+  wallpaper_manager: ^1.0.10 
+  # Image Cache 
+  flutter_cache_manager: ^2.1.0 
+  # SnachBar
+  flushbar: ^1.10.4
+  # ListView Animation
+  # Image Picker
+  image_picker: ^0.6.7+17      
+  # Cache Images
+  cached_network_image: ^2.5.0 
+  # Loading Animation
+  flutter_spinkit: ^4.1.2+1
+  # FireBase Storage
+  firebase_storage: ^5.2.0 
+  # Flutter native adverdisement
+  flutter_native_admob: ^2.1.0
+  firebase_admob: ^0.10.3
+  # path
+  path: ^1.7.0
+  # launch playstore
+  share: ^0.6.5+4 
+  # Get Date and Time
+  intl: ^0.16.1
+  # App Launcher Icon
+  flutter_launcher_icons: ^0.8.1 
+  #Scroll Style
+  flutter_swiper: ^1.1.6
+  # Installed Apps
+  device_apps: ^1.2.0
+  # Random Color
+  flutter_staggered_grid_view: ^0.3.3
+  #top snackbar
+  top_snackbar_flutter: ^0.0.3
+  #Expandable container
+  expandable: ^4.1.4
+  #Shared Preference
+  shared_preferences: ^0.5.12+4
+  #State management
+  provider: ^4.3.2+3
+  #App Launvher
+  external_app_launcher: ^0.0.1
+  #app avabliy
+  flutter_appavailability: ^0.0.21
+  #firebase package
+  firebase_core: ^0.5.3
+  #State management
+  rxdart: ^0.25.0
+  #Flutter Scroll glow
+  scroll_glow_color: ^0.1.2
+  # Pagination
+  paginate_firestore: ^0.2.0
+  #http for api calls
+  http: 
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "Images/appicon.png"    
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - Images/
+
+    
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+ 
